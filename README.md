@@ -9,3 +9,11 @@ User authentication and secure login.
 CRUD operations (Create, Read, Update, Delete) for employee records.
 UI designed with Bootstrap and custom CSS for responsiveness.
 Integration with a MongoDB backend via Express and Node.js
+
+Technologies Used:
+Frontend: React.js
+Backend: Node.js, Express.js
+Database: MongoDB (via Mongoose)
+Styling: Bootstrap and CSS with modern features
+File Upload: Multer
+Authentication: JWT and bcrypt for password encryption
