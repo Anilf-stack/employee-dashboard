@@ -1,0 +1,128 @@
+/* General Body Styling */
+body {
+    background-color: hsl(197, 85%, 37%); /* Light background for the entire page */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark gray text for readability */
+}
+
+/* Container Styling */
+.container-fluid {
+    padding: 0;
+}
+
+/* Navbar Section */
+.navbar {
+    background-color: #4a4a4a; /* Gray background for navbar */
+    padding: 1rem 3rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    background-color: #ffffff; /* White background for content area */
+    padding: 40px;
+    margin: 30px auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    max-width: 1200px; /* Centering content and controlling width */
+}
+
+/* Hover Effect for Dashboard */
+.dashboard-container:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Dashboard Content */
+.dashboard-content {
+    text-align: center;
+}
+
+.dashboard-content h1 {
+    color: #333333; /* Darker text for heading */
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.dashboard-content p {
+    color: #777777; /* Slightly lighter gray for paragraph */
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+/* Responsive Styling for Dashboard */
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 20px;
+    }
+
+    .dashboard-content h1 {
+        font-size: 2rem;
+    }
+
+    .dashboard-content p {
+        font-size: 1rem;
+    }
+}
+
+/* Grid Layout for Dashboard Items */
+.dashboard-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Card Styling */
+.dashboard-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: all 0.3s ease;
+}
+
+/* Card Hover Effect */
+.dashboard-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Content */
+.dashboard-card h3 {
+    color: #007bff; /* Blue heading for cards */
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.dashboard-card p {
+    color: #6c757d; /* Text styling for card descriptions */
+    font-size: 1rem;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #343a40; /* Dark footer */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 50px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Footer */
+@media (max-width: 576px) {
+    .footer {
+        font-size: 0.9rem;
+    }
+}

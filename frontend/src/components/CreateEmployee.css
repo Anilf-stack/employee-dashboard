@@ -1,0 +1,73 @@
+.create-employee-container {
+    max-width: 500px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #fefefe; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.create-employee-form {
+    display: flex; 
+    flex-direction: column; 
+}
+.custom-heading {
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold; 
+    font-style: normal; 
+    color: #343a40; 
+    letter-spacing: 1px; 
+}
+.form-input, .form-file, .submit-button {
+    width: 100%; 
+    padding: 12px; 
+    margin: 10px 0; 
+    border: 1px solid #d1d1d1; 
+    border-radius: 4px; 
+}
+
+.form-input:focus, .form-file:focus {
+    border-color: #5bc0de; 
+    outline: none; 
+}
+
+.gender-group, .course-group {
+    margin: 10px 0; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.gender-label, .course-label {
+    font-size: 16px; 
+    margin-bottom: 1px; 
+    margin-right: 15px;
+    color: #333; 
+}
+
+.form-radio, .form-checkbox {
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.submit-button {
+    background-color: #5bc0de; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.submit-button:hover {
+    background-color: #31b0d5; 
+}
+
+@media (max-width: 768px) {
+    .create-employee-container {
+        width: 100%; 
+    }
+
+    .form-input, .form-file, .submit-button {
+        padding: 10px; 
+    }
+}

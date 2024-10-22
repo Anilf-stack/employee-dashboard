@@ -1,0 +1,64 @@
+/* src/components/login.css */
+
+/* Add background image for the login page */
+.container {
+    background-image: url('../assets/login.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Ensure it covers the full screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Custom container styles */
+.custom-login-container {
+    background-color: #f8f9fa;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+    max-width: 90%; 
+    height: auto;
+    backdrop-filter: blur(10px); /* Optional: Adds a glass effect */
+}
+
+/* Title styling */
+.custom-login-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #495057;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Input field styling */
+.custom-input-field {
+    border: 2px solid #ced4da;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.custom-input-field:focus {
+    border-color: #007bff;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Custom button styling */
+.custom-login-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.custom-login-btn:hover {
+    background-color: #0056b3;
+}
+
+.custom-login-btn:disabled {
+    background-color: #6c757d;
+}

@@ -1,0 +1,81 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #4a4a4a; /* Gray background color */
+    padding: 1rem 3rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.navbar-brand {
+    color: #ffffff; /* White text for the brand */
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;base64,...'); /* Custom hamburger icon (optional) */
+}
+
+/* Navbar Links */
+.nav-link {
+    color: #ffffff; /* White text for links */
+    margin-right: 20px;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #00aaff; /* Accent color on hover */
+}
+
+/* Active Link */
+.nav-link.active {
+    font-weight: bold;
+    color: #00aaff;
+    border-bottom: 2px solid #00aaff;
+}
+
+/* Username Text */
+.navbar-text {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Logout Button */
+.btn-outline-danger {
+    color: #ffffff;
+    border: 2px solid #ff4c4c;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+    background-color: #ff4c4c;
+    color: #ffffff;
+    border-color: #ff4c4c;
+}
+
+/* Navbar Hover Effect */
+.navbar:hover {
+    background-color: #3a3a3a; /* Slightly darker gray background on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 992px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .nav-link {
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+
+    .navbar-text {
+        font-size: 0.9rem;
+    }
+}
